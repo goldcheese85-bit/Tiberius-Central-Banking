@@ -1,0 +1,9 @@
+{
+  "name": "Kotlin Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/gradle:1": {}
+  },
+  "postCreateCommand": "git config --global core.autocrlf input"
+}
